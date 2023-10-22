@@ -1,0 +1,37 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    display: flex;
+    transition: 1s;
+}
+.Bir{
+    margin-left: 150px;
+    margin-top: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.Iki{
+    margin-left: 300px;
+    margin-top: -100px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.Uc{
+    margin-left: 450px;
+    margin-top: -100px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.Bir:hover{
+    transform: rotateX(180deg);
+}
+.Iki:hover{
+    transform: rotateY(180deg);
+}
+.Uc:hover{
+    transform: rotateZ(180deg);
+}

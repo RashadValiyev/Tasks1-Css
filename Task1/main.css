@@ -1,0 +1,68 @@
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: red;
+    animation-duration: 10000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    margin-left: 40%;
+    margin-top:10%;;
+}
+
+.green{
+    width:140px;
+    height: 140px;
+    background-color:green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: green;
+    animation-duration: 5000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.blue{
+    width:100px;
+    height:100px;
+    background-color:blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: blue;
+    animation-duration: 2500ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes red {
+    
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+@keyframes green {
+    
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+    
+}
+@keyframes blue {
+    
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+    
+}

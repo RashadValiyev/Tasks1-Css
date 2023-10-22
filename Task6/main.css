@@ -1,0 +1,22 @@
+div.bir{
+    width: 18px;
+    height: 18px;
+    color:green;
+    transition: transform 1s;
+    margin-left: 500px ;
+    margin-top: 20px;
+display: flex;
+font-size: 25px;
+}
+div.bir:hover{
+    transform: scale(1.8);
+
+}
+.Html{
+    margin-top: -15px;
+    margin-left: 520px;
+    font-size: 20px;
+}
+.Reqemler{
+    height: 50px;
+}

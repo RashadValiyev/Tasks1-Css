@@ -1,0 +1,35 @@
+.Animated1{
+    width: 600px;
+    height: 100px;
+    border:1px solid black;
+}
+.Animated2{
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.Animated3{
+    width: 600px;
+    height: 100px;
+    border:1px solid black;
+}
+.Animated4{
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+}
+.Animated4:hover{
+    width: 240px;
+}
+@keyframes move {
+    from{
+        width: 150px;
+    }
+    to{
+        width: 500px;
+    }
+    
+}

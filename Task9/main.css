@@ -1,0 +1,89 @@
+.Bir{
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    margin-top: 200px;
+    margin-left: 300px;
+    animation-name: Birinci;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.Iki{
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    margin-top: -60px;
+    margin-left: 400px;
+    animation-name:Ikinci;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 0.05s
+}
+.Uc{
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    margin-top:-60px;
+    margin-left:500px;
+    animation-name: Ucuncu;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+}
+.Umumi{
+    margin-top: 50px;
+}
+@keyframes Birinci {
+    0%{
+        transform: rotate(0deg);
+    }
+    49%{
+        transform: rotate(89deg);
+    }
+    50%{
+        transform: rotate(90deg);
+        background-color:white;
+    }
+    100%{
+        transform: rotate(180deg);
+
+    }
+    
+}
+@keyframes Ikinci{
+    0%{
+        transform: rotate(0deg);
+    }
+    49%{
+        transform: rotate(89deg);
+    }
+    50%{
+        transform: rotate(90deg);
+        background-color:white;
+    }
+    100%{
+        transform: rotate(180deg);
+
+    }
+    
+}
+@keyframes Ucuncu {
+    0%{
+        transform: rotate(0deg);
+    }
+    49%{
+        transform: rotate(89deg);
+    }
+    50%{
+        transform: rotate(90deg);
+        background-color:white;
+    }
+    100%{
+        transform: rotate(180deg);
+
+    }
+    
+}

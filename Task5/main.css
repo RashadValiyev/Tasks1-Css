@@ -1,0 +1,64 @@
+.birinci{
+    font-size:20px;
+    animation-name: Birinci;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+.ikinci{
+    font-size:20px;
+    animation-name: Ikinci;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+}
+.ucuncu{
+    font-size:20px;
+    animation-name: Ucuncu;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.dorduncu{
+    font-size:20px;
+    animation-name: Dorduncu;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes Birinci {
+    0%{
+        margin-left: 500px ;
+
+    }
+    100%{
+        margin-left:0px;
+    }
+}
+@keyframes Ikinci {
+    0%{
+        margin-left: 500px ;
+
+    }
+    100%{
+        margin-left:0px;
+    }
+}
+@keyframes Ucuncu {
+    0%{
+        margin-left: 500px ;
+
+    }
+    100%{
+        margin-left:0px;
+    }
+}
+@keyframes Dorduncu {
+    0%{
+        margin-left: 500px ;
+
+    }
+    100%{
+        margin-left:0px;
+    }
+}

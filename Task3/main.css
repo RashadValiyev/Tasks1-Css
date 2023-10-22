@@ -1,0 +1,23 @@
+.red {
+    width: 200px;
+    height: 150px;
+    background-color: red;
+    transition:4s;
+    transition-delay: 1s;
+}
+
+.red:hover {
+    width: 1000px;
+}
+
+.blue {
+    width: 200px;
+    height: 150px;
+    background-color: blue;
+    transition:4s;
+    transition-delay: 2s;
+}
+
+.blue:hover {
+    width: 1000px;
+}
